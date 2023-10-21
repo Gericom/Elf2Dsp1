@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\EndianBinaryReader.cs" />
+    <Compile Include="Core\EndianBinaryWriter.cs" />
+    <Compile Include="Core\IOUtil.cs" />
+    <Compile Include="DSP1.cs" />
+    <Compile Include="ELF\Dwarf2\DW2DebugLine.cs" />
+    <Compile Include="ELF\ELF.cs" />
+    <Compile Include="ELF\Sections\ElfSection.cs" />
+    <Compile Include="ELF\Sections\ElfStrtab.cs" />
+    <Compile Include="ELF\Sections\ElfSymtab.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
